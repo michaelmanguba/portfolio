@@ -16,6 +16,11 @@ figure {
     margin: 0;
 }
 
+input, textarea {
+    border-radius: 0;
+    -webkit-appearance: none;
+}
+
 /* ====== Header ====== */
 
 header {
@@ -31,8 +36,6 @@ header {
         background: rgba(255,255,255,0.6);
         float: left;
         margin: 10px 0 0 50px;
-        display: flex;
-        justify-content: space-around;
         border-radius: 50%;
     }
     
@@ -48,11 +51,11 @@ header {
             font-size: 57px;
         }
         header .logo .icon-gamepad {
-            padding-right: 23px;
+            padding-left: 10px;
             padding-top: 1px;
         }
         header .logo .icon-basketball {
-            padding-left: 21px; 
+            padding-left: 33px; 
             padding-top: 2px; 
         }
     
@@ -149,8 +152,6 @@ footer {
             float: left;
             margin-right: 30px;
             background: rgba(255,255,255,0.6);
-            display: flex;
-            justify-content: space-around;
             border-radius: 50%;
         }
             footer .lockup .logo span {
@@ -165,11 +166,11 @@ footer {
                 font-size: 57px;
             }
             footer .lockup .logo .icon-gamepad {
-                padding-right: 23px;
+                padding-left: 10px;
                 padding-top: 1px;
             }
             footer .lockup .logo .icon-basketball {
-                padding-left: 21px; 
+                padding-left: 33px; 
                 padding-top: 2px; 
             }
         
